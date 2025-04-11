@@ -5,7 +5,7 @@
           $curl = curl_init();
 
           curl_setopt_array($curl, array(
-            CURLOPT_URL => 'https://script.google.com/macros/s/AKfycbxSUupv2CDh9Tw6spWgktM4xOOZLKUDb_cKgNSCMBFMAwcRa6ZqPsvDXVDiMgoolTBrNw/exec?action=getUsers',
+            CURLOPT_URL => 'https://script.google.com/macros/s/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx?action=getUsers',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
