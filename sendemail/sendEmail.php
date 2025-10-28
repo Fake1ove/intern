@@ -17,15 +17,15 @@ require 'src/SMTP.php';
 			//$mail->SMTPDebug = SMTP::DEBUG_SERVER;
 			$mail->CharSet = "utf-8";
 			$mail->isSMTP();     
-			$mail->Host       = 'smtp.gmail.com'; 
+			$mail->Host       = 'xxxxx.gmail.com'; 
 			$mail->SMTPAuth   = true;   
-			$mail->Username   = 'tlprofile6606@gmail.com';  
-			$mail->Password   = 'uvbfpbplhgrbgxcv';
+			$mail->Username   = 'xxxxxxx@gmail.com';  
+			$mail->Password   = 'xxxxxxxx';
 			$mail->SMTPSecure = 'tls';            
-			$mail->Port       = 587;
+			$mail->Port       = xxx;
 
 			//Recipients
-			$mail->setFrom('thonglor.profile@gmail.com', $dataMail['from_name']);
+			$mail->setFrom('xxxxxxxxx@gmail.com', $dataMail['from_name']);
 
 			foreach($dataMail['mail_to'] as $email)
 			{
